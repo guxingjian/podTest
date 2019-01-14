@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "HeqzpodTest"
-  s.version      = "0.0.9"
+  s.version      = "1.2.0"
   s.summary      = "podTest test"
 
   # This description is used to generate tags and improve search results.
