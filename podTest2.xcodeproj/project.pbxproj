@@ -10,6 +10,9 @@
 		C9D8C5CE21EC3A7600045B1B /* podTest2.h in Headers */ = {isa = PBXBuildFile; fileRef = C9D8C5CC21EC3A7600045B1B /* podTest2.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C9D8C5D621EC3C8A00045B1B /* podTest.h in Headers */ = {isa = PBXBuildFile; fileRef = C9D8C5D421EC3C8A00045B1B /* podTest.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C9D8C5D721EC3C8A00045B1B /* podTest.m in Sources */ = {isa = PBXBuildFile; fileRef = C9D8C5D521EC3C8A00045B1B /* podTest.m */; };
+		C9D8C60621EC7F9B00045B1B /* PodTestView.h in Headers */ = {isa = PBXBuildFile; fileRef = C9D8C60421EC7F9B00045B1B /* PodTestView.h */; };
+		C9D8C60721EC7F9B00045B1B /* PodTestView.m in Sources */ = {isa = PBXBuildFile; fileRef = C9D8C60521EC7F9B00045B1B /* PodTestView.m */; };
+		C9D8C60921EC803900045B1B /* test@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C9D8C60821EC803800045B1B /* test@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -18,6 +21,9 @@
 		C9D8C5CD21EC3A7600045B1B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C9D8C5D421EC3C8A00045B1B /* podTest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = podTest.h; sourceTree = "<group>"; };
 		C9D8C5D521EC3C8A00045B1B /* podTest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = podTest.m; sourceTree = "<group>"; };
+		C9D8C60421EC7F9B00045B1B /* PodTestView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PodTestView.h; sourceTree = "<group>"; };
+		C9D8C60521EC7F9B00045B1B /* PodTestView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PodTestView.m; sourceTree = "<group>"; };
+		C9D8C60821EC803800045B1B /* test@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "test@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +59,9 @@
 				C9D8C5CC21EC3A7600045B1B /* podTest2.h */,
 				C9D8C5D421EC3C8A00045B1B /* podTest.h */,
 				C9D8C5D521EC3C8A00045B1B /* podTest.m */,
+				C9D8C60421EC7F9B00045B1B /* PodTestView.h */,
+				C9D8C60521EC7F9B00045B1B /* PodTestView.m */,
+				C9D8C60821EC803800045B1B /* test@2x.png */,
 				C9D8C5CD21EC3A7600045B1B /* Info.plist */,
 			);
 			path = podTest2;
@@ -67,6 +76,7 @@
 			files = (
 				C9D8C5D621EC3C8A00045B1B /* podTest.h in Headers */,
 				C9D8C5CE21EC3A7600045B1B /* podTest2.h in Headers */,
+				C9D8C60621EC7F9B00045B1B /* PodTestView.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -127,6 +137,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C9D8C60921EC803900045B1B /* test@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,6 +148,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C9D8C60721EC7F9B00045B1B /* PodTestView.m in Sources */,
 				C9D8C5D721EC3C8A00045B1B /* podTest.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
