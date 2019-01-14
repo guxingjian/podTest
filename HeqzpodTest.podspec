@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "HeqzpodTest"
-  s.version      = "0.0.8"
+  s.version      = "0.0.9"
   s.summary      = "podTest test"
 
   # This description is used to generate tags and improve search results.
@@ -90,7 +90,7 @@ Pod::Spec.new do |s|
   #  For header files it will include any header in the folder.
   #  Not including the public_header_files will make all headers public.
   #
-  s.source_files  = "podTest2/podTest.{h,m}"
+#  s.source_files  = "podTest2/podTest.{h,m}"
   #s.exclude_files = "Classes/Exclude"
 
   # s.public_header_files = "Classes/**/*.h"
