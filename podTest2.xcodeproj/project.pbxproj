@@ -8,12 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		C9D8C5CE21EC3A7600045B1B /* podTest2.h in Headers */ = {isa = PBXBuildFile; fileRef = C9D8C5CC21EC3A7600045B1B /* podTest2.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C9D8C5D621EC3C8A00045B1B /* podTest.h in Headers */ = {isa = PBXBuildFile; fileRef = C9D8C5D421EC3C8A00045B1B /* podTest.h */; };
+		C9D8C5D721EC3C8A00045B1B /* podTest.m in Sources */ = {isa = PBXBuildFile; fileRef = C9D8C5D521EC3C8A00045B1B /* podTest.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		C9D8C5C921EC3A7600045B1B /* podTest2.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = podTest2.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C9D8C5CC21EC3A7600045B1B /* podTest2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = podTest2.h; sourceTree = "<group>"; };
 		C9D8C5CD21EC3A7600045B1B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C9D8C5D421EC3C8A00045B1B /* podTest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = podTest.h; sourceTree = "<group>"; };
+		C9D8C5D521EC3C8A00045B1B /* podTest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = podTest.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +51,8 @@
 			isa = PBXGroup;
 			children = (
 				C9D8C5CC21EC3A7600045B1B /* podTest2.h */,
+				C9D8C5D421EC3C8A00045B1B /* podTest.h */,
+				C9D8C5D521EC3C8A00045B1B /* podTest.m */,
 				C9D8C5CD21EC3A7600045B1B /* Info.plist */,
 			);
 			path = podTest2;
@@ -59,6 +65,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C9D8C5D621EC3C8A00045B1B /* podTest.h in Headers */,
 				C9D8C5CE21EC3A7600045B1B /* podTest2.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -130,6 +137,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C9D8C5D721EC3C8A00045B1B /* podTest.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
