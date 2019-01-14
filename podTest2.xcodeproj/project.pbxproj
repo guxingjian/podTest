@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		C9D8C5CE21EC3A7600045B1B /* podTest2.h in Headers */ = {isa = PBXBuildFile; fileRef = C9D8C5CC21EC3A7600045B1B /* podTest2.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C9D8C5D621EC3C8A00045B1B /* podTest.h in Headers */ = {isa = PBXBuildFile; fileRef = C9D8C5D421EC3C8A00045B1B /* podTest.h */; };
+		C9D8C5D621EC3C8A00045B1B /* podTest.h in Headers */ = {isa = PBXBuildFile; fileRef = C9D8C5D421EC3C8A00045B1B /* podTest.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C9D8C5D721EC3C8A00045B1B /* podTest.m in Sources */ = {isa = PBXBuildFile; fileRef = C9D8C5D521EC3C8A00045B1B /* podTest.m */; };
 /* End PBXBuildFile section */
 
