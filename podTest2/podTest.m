@@ -10,4 +10,9 @@
 
 @implementation podTest
 
+- (void)podtest
+{
+    NSLog(@"podtest");
+}
+
 @end
